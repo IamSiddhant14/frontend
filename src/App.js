@@ -7,8 +7,8 @@ const  App = () => {
   return (
     <h1 className="app">
       <Navbar/>
-      {/* <Header />      
-      <About />
+      <Header />      
+      {/* <About />
       <Work />
       <Skills />
       <Testimonial />
