@@ -8,8 +8,8 @@ const  App = () => {
     <h1 className="app">
       <Navbar/>
       <Header />      
-      {/* <About />
-      <Work />
+      <About />
+      {/*<Work />
       <Skills />
       <Testimonial />
       <Footer /> */}
