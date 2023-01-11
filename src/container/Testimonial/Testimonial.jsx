@@ -30,11 +30,8 @@ const Testimonial = () => {
 
   return (
     <>
-    
       {testimonials.length && (
-        
         <>
-        
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(testimonials[currentIndex].imageurl)} alt={testimonials[currentIndex].name} />
             <div className="app__testimonial-content">
@@ -59,7 +56,7 @@ const Testimonial = () => {
       )}
 
       <div className="app__testimonial-brands app__flex">
-        {brands?.map((brand) => (
+        {brands.map((brand) => (
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
@@ -79,4 +76,3 @@ export default AppWrap(
   'testimonial',
   'app__primarybg',
 );
-
